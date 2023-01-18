@@ -38,19 +38,3 @@ body.appendChild(displayAllCountry);
 getAllCountries();
 const form = document.querySelector("form");
 form.addEventListener("submit", getCountryByName);
-
-// getCountryByName ("UK");
-// const breedResponse = await fetch("https://dog.ceo/api/breed/corgi/images");
-// const breedJsonData = await breedResponse.json();
-
-// const imagesContainer = document.createElement("div");
-
-// breedJsonData.message.forEach((dogImageUrl) => {
-//     const dogImage = document.createElement("img");
-//     dogImage.src = dogImageUrl;
-//     dogImage.alt = "image of a dog";
-
-//     imagesContainer.appendChild(dogImage);
-// })
-
-// document.querySelector("body").appendChild(imagesContainer);
